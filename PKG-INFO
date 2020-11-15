@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: apexofficeprint
+Version: 0.0.1
+Summary: python interface for apexofficeprint
+Home-page: https://github.com/United-Codes/apexofficeprint-python
+Author: United Codes
+Author-email: info@united-codes.com
+License: UNKNOWN
+Description: # apexofficeprint-python
+        This project provides a Python interface for APEX Office Print.
+        
+        ## Contributing
+        
+        ### Useful VS Code extensions
+        - `njpwerner.autodocstring`: Python docstring generator, uses Google-style docs by default.
+        
+        ### pdoc
+        [pdoc](https://pdoc3.github.io/pdoc/) is used for documentation generation.
+        Things to keep in mind when writing docs (some of these are non-standard):
+        - Docstrings are inherited from `super()`.
+        - Instance variables (attributes) can have docstrings, start the docstring on the line *underneath* the attribute
+        - For `@property` properties, the setter's documentation is ignored. Make sure everything is in the getter.
+        - You can use markdown in the docstrings, along with the generated google-style docs.
+          - Doing something like \``ClassName`\` (with backticks, which are generally for inline code) makes pdoc look for the reference and try to hyperlink it in the generated docs.</br>
+          This works with any object, useful methods or instance variables of a class too. Maked pdoc look for that 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: LICENSE :: OSI APPROVED :: GNU GENERAL PUBLIC LICENSE V3 (GPLV3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
